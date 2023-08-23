@@ -1,0 +1,8 @@
+<!-- <button class="btn">Click</button> -->
+<!-- <button class="btn">{{text}}</button> -->
+<!-- <button [ngStyle]= "{'background-color' : color}" class ="btn">{{text}}</button> -->
+<!-- for adding inline style we are using ngStyle directives (why? to change the color of button) -->
+<!-- property binding or atttribute binding here [ngStyle] is an attribute -->
+
+<!-- now to add event binding() -->
+<button [ngStyle]="{'background-color' : color}" class="btn" (click)="onClick()">{{text}} </button>
